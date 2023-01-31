@@ -1,0 +1,49 @@
+.cardPrimary{
+    display: grid;
+    grid-template-rows: 0.5fr 5fr;
+    border: solid 1px;
+    border-color: #88d4ab;
+    border-radius: 5px;
+    background-color: rgb(231, 242, 239);
+    width: 22rem;
+    height: 320px;
+}
+
+.cardInfo{
+    margin: 0 0 2px 0;
+    grid-row: 1/2 ;
+    height: 120px;
+}
+
+.cardTitle {
+    display: block;
+    margin: 0%;
+    font-size: 25px;
+    text-decoration: none;
+    color: #14746f;
+}
+
+.cardInfoComplement{
+    margin: 10px 0 2px 0;
+    color: #469d89;
+    font-size: 17px;
+}
+
+.cardImage {
+    margin: 0 0 0 0;
+    height: minmax(200px,100%);
+    width: 100%;
+    grid-row: 2/3;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardFlag{
+    padding: 1px 1px 1px 1px ;
+    object-fit: scale-down;
+    overflow: overlay;
+    width: 21rem;
+    height: 12rem ;
+
+    /* Ajustarlo con Min y Max */
+}

@@ -1,0 +1,13 @@
+.principalContainer{
+    background-image: url('../images/birds_flags.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 0%;
+}
+
+.title{
+    margin-top:0%;
+    color: darkcyan;
+}
+

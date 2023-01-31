@@ -1,0 +1,29 @@
+.navbarMainContainer{
+    width: 100%;
+    height: 40px;
+    background-color: #036666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navButtons{
+    width: 80%;
+    /* border: solid 10px;
+    border-color: #ffffff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.linkNav{
+    width: 100%;
+    /* border: solid 1px;
+    border-color: white; */
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+}
+

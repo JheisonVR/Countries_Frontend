@@ -1,0 +1,14 @@
+.detailTAMain{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    box-shadow: 2px 2px 2px 1px #036666 ;
+}
+
+.mainDetailTA{
+    grid-row: 6/7;
+    grid-column: 2/6;
+}

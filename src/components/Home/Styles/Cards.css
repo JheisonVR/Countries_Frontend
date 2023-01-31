@@ -1,0 +1,108 @@
+.CardsMainContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.5fr 4fr;
+}
+
+
+.matrizCards{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 1rem;   
+}
+
+/* .matrizCards{
+    display : grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center; 
+} */    
+
+.filters{
+    margin: 0 0 0 0;
+    padding: 2px 0 0 2px;
+    border-right: solid 1px ;
+    border-color: black ;
+    width: 100%;
+    display: flex; 
+    flex-direction: column; 
+    align-items:center ;
+    justify-content:flex-start;
+    gap: 10px;
+    background-color: #036666;
+    color: aliceblue;
+
+}
+
+.FilterContain{
+    display: block;
+    width: 90%;
+    border: solid 1px;
+    border-color: #036666;
+}
+
+.FilterContainSearch{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-size:larger ;
+}
+
+.filterContinentMain{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: larger;
+}
+.filterContinentTitle{
+    margin: 0 0 1px 0;
+}
+
+.continetImage{
+    width: 100px;
+    height: 100px;
+}
+
+.FilterContainSearch input{
+    font-size: medium;
+}
+
+
+
+
+.filterTA{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonsTA{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textFilterTA{
+    color: white;
+}
+
+.filterPagesMain{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    width: 100%;
+    font-size: larger;
+}
+
+.filterPagesTitle{
+    grid-column: 1/2;
+    justify-content: start;
+    margin: 0 10px 0 0;
+}
+
+.filterPageNext{
+    grid-column: 2/3 ;
+    grid-row: 1/1;
+}
+
+.filterPagePrev{
+    grid-column: 4/5;
+
+}
