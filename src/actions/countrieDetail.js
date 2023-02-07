@@ -10,7 +10,7 @@ export function getCountryDetail(value){
 
 export const fetchCuntryDetail = (id) => async (dispatch)=> {
     try{
-        await axios.get(`http://localhost:3001/countries/${id}`)
+        await axios.get(`/countries/${id}`)
             .then(data => dispatch(getCountryDetail(data.data)))
     }catch(e){
         console.log(e)

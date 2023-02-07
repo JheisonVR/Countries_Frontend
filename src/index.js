@@ -6,6 +6,10 @@ import {Provider} from 'react-redux';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import axios from 'axios'
+
+//axios.defaults.baseURL = 'http://localhost:3001';
+axios.defaults.baseURL = 'https://countriesbackend-production-111d.up.railway.app/';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

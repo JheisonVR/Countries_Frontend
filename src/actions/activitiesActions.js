@@ -17,12 +17,12 @@ export function postActivities (value){
 }
 
 export const postFormActivities = (info)=> async (dispatch)=>{
-    await axios.post(`http://localhost:3001/touristActivities`, info)
+    await axios.post(`/touristActivities`, info)
         .then(data => dispatch(postActivities(data.data)))
 }
 
 export const getAllActivities = ()=> async (dispatch) =>{
-    await axios.get(`http://localhost:3001/touristActivities`)
+    await axios.get(`/touristActivities`)
         .then(act => dispatch(getActivities(act.data)))
 }
 
